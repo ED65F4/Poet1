@@ -1,3 +1,4 @@
+is_valid_date:
 /* REXX function to check if a date in the format "YYYYMMDD" is valid */
 parse arg date  /* accept a parameter of the date in the format "YYYYMMDD" */
 year = substr(date, 1, 4) /* extract the year from the date */
